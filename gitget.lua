@@ -1,5 +1,4 @@
 local args = { ... }
-
 local remoteFileName
 
 if string.find(args[1], ".lua") then
@@ -8,7 +7,7 @@ else
     remoteFileName = args[1] .. ".lua"
 end
 
-print("Downloading " .. remoteFileName)
+print("Acquiring " .. remoteFileName .. " from github...")
 
 local remoteContent = http.get("https://raw.github.com/AWalterJackson/MC_CC/master/" .. remoteFileName)
 local localFile = fs.open(remoteFileName, "w")
