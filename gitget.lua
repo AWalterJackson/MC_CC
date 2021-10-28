@@ -1,6 +1,11 @@
 local args = { ... }
 local remoteFileName
 
+if fs.exists("gitgetProgramData") then
+else
+    fs.makeDir("gitgetProgramData")
+end
+
 if string.find(args[1], ".lua") then
     remoteFileName = args[1]
 else
