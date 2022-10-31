@@ -7,4 +7,4 @@ Even though this repo is likely to only ever have at most a handful of contribut
 * New Programs need to be added in a pull request containing only that program. This is to ensure the namespace remains unpolluted as it lacks any form of scoping.
 * Changes to existing programs should also be PR'd individually as these programs may well be running on people's in game systems already and changing behaviour without review could result in broken builds.
 
-Broadly this repo only exists for fun and nothing in here should be taken more than even slightly seriously.
+Broadly this repo only exists for fun and nothing in here should be taken more than even slightly seriously. Nor should any applications within it be assumed to be secure.
